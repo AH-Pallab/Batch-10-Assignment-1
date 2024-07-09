@@ -63,3 +63,86 @@
   text-align: center;
   padding: 21px 24px 21px 24px;
 }
+
+/* Why Web Development */
+.why-web-dev {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px 80px 97px;
+  width: 1140px;
+  height: 1395px;
+  margin: 0 auto;
+}
+
+.why-web-dev>.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 99.77px;
+  padding: 48px;
+}
+
+.why-web-dev>.row-0>h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0px;
+}
+
+
+.why-web-dev>.row-0>p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.web-dev-content>h1 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 16px 0px;
+}
+
+.web-dev-content>p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 16px 0px;
+}
+
+.web-dev-content>button {
+  padding: 12px 20px 12px 20px;
+  margin: 32px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.why-web-dev>.row>img {
+  width: 259.56px;
+  height: 217.01px;
+}
