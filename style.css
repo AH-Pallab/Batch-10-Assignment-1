@@ -8,6 +8,7 @@
   padding: 0;
 }
 
+
 /* Head Banner section */
 .hero-banner {
   background-image: url(./assets/Hero-bg.png);
@@ -145,4 +146,46 @@
 .why-web-dev>.row>img {
   width: 259.56px;
   height: 217.01px;
+}
+
+/* My Inspiration */
+.My-Inspiration {
+  width: 1140px;
+  height: 775px;
+  margin: 88px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.My-Inspiration>h1 {
+  margin: 24px 0px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.My-Inspiration>p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0px;
+}
+
+.My-Inspiration>iframe {
+  margin: 10px 0px;
+  border-radius: 16px;
+  padding: 32px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
 }
