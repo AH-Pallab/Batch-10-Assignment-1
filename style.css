@@ -192,20 +192,13 @@
 
 /* My Current Target */
 .current-target {
-  position: static;
   width: 1140px;
   height: 460px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 0px;
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 111px 0px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .roww-1 {
@@ -334,3 +327,68 @@
 }
 
 /* Footer */
+footer {
+  width: 1140px;
+  height: 313px;
+  padding: 64px 48px 64px 48px;
+  border-radius: 16px;
+  background: url(./assets/handshake.jpg), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  margin: 450px auto;
+}
+
+footer>h1 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+footer>p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  height: 52px;
+  margin-top: 16px;
+}
+
+footer>div {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+footer>div>input {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  width: 548px;
+  height: 57px;
+  padding: 19px 20px 19px 20px;
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+}
+
+footer>div>button {
+  width: 120px;
+  height: 57px;
+  padding: 17px 20px 17px 20px;
+  border: none;
+  border-radius: 8px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+}
