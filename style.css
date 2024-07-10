@@ -8,6 +8,9 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 /* Head Banner section */
 .hero-banner {
@@ -55,14 +58,20 @@
 .hero-banner>button {
   border-radius: 8px;
   background: rgb(13, 19, 33);
-  color: rgb(255, 255, 255);
+
   font-family: Azeret Mono;
-  font-size: 20px;
-  font-weight: 600;
+
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
   padding: 21px 24px 21px 24px;
+}
+
+.hero-banner a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
 }
 
 /* Why Web Development */
@@ -265,7 +274,7 @@
 
 .roww-2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -285,8 +294,6 @@
   font-family: Azeret Mono;
   font-size: 24px;
   font-weight: 800;
-  line-height: 36px;
-  letter-spacing: 0%;
   text-align: left;
 }
 
@@ -327,7 +334,8 @@
 }
 
 /* Footer */
-footer {
+/* Feedback */
+.feedback {
   width: 1140px;
   height: 313px;
   padding: 64px 48px 64px 48px;
@@ -335,10 +343,10 @@ footer {
   background: url(./assets/handshake.jpg), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
   background-repeat: no-repeat;
   background-blend-mode: overlay;
-  margin: 450px auto;
+  margin: 400px auto 80px auto;
 }
 
-footer>h1 {
+.feedback>h1 {
   color: rgb(255, 255, 255);
   font-family: Azeret Mono;
   font-size: 32px;
@@ -348,7 +356,7 @@ footer>h1 {
   text-align: center;
 }
 
-footer>p {
+.feedback>p {
   color: rgba(255, 255, 255, 0.7);
   font-family: Azeret Mono;
   font-size: 16px;
@@ -360,14 +368,14 @@ footer>p {
   margin-top: 16px;
 }
 
-footer>div {
+.feedback>div {
   display: flex;
   justify-content: center;
   gap: 16px;
   margin-top: 24px;
 }
 
-footer>div>input {
+.feedback>div>input {
   box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 8px;
@@ -382,7 +390,7 @@ footer>div>input {
   letter-spacing: 0%;
 }
 
-footer>div>button {
+.feedback>div>button {
   width: 120px;
   height: 57px;
   padding: 17px 20px 17px 20px;
@@ -391,4 +399,24 @@ footer>div>button {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 20px;
+}
+
+/* links */
+.link {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px auto 100px auto;
+  width: 1140px;
+  height: 36px;
+}
+
+.link h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.link img {
+  margin-left: 24px;
 }
